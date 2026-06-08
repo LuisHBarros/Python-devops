@@ -21,3 +21,4 @@ dist/
 # IDE
 .idea/
 .vscode/
+frontend/.env
