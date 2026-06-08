@@ -1,0 +1,8 @@
+include:
+  - ../docker-compose.dev.yml
+
+services:
+  backend:
+    volumes:
+      - ..:/workspace:cached
+    working_dir: /workspace/backend
